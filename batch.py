@@ -1,10 +1,8 @@
 import os
-import glob
 import sys
 import re
 import types
 import copy
-from pyparsing import *
     
 class SExpParser:
     
