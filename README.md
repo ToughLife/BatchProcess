@@ -151,15 +151,11 @@ batch.py -s -d (#D try2 d)(#PS (#s (#PF @d\(#m (#pd @d .*)((\1)(&nbsn))) .*\.[pn
 convert a.jpg -resize 10% resized-a.jpg
 convert b.png -resize 10% resized-b.png
 ```
- convert wm.png -resize 5.28% try2\101000404\1\wm01.png && composite -gravity ce
+convert wm.png -resize 5.28% try2\101000404\1\wm01.png && composite -gravity ce
 nter try2\101000404\1\wm01.png try2\101000404\1\01.jpg try2\101000404\1\01.jpg &
 & del try2\101000404\1\wm01.png
-=======
-You can render *LaTeX* mathematical expressions using **MathJax**, as on [math.stackexchange.com][1]:
+```
 
-The *Gamma function* satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral
+##Known issues:
 
-$$
-\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
-$$
->>>>>>> origin/master
+1. When using `(#pf folder pt)`, there *MUST NOT* be a space at the end of `pt`, i.e. `pt `. Otherwise, this statement will not working.
