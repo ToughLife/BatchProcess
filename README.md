@@ -159,3 +159,6 @@ nter try2\101000404\1\wm01.png try2\101000404\1\01.jpg try2\101000404\1\01.jpg &
 ##Known issues:
 
 1. When using `(#pf folder pt)`, there *MUST NOT* be a space at the end of `pt`, i.e. `pt `. Otherwise, this statement will not working.
+
+##Todo List:
+1. Add explorer add-on
