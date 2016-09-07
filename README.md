@@ -1,4 +1,4 @@
-s
+<a href="abc">ddd</a>
 # Batch processing - batch
 
 ```batch``` allows you to execute many a bounch of commands in one command. Actually, it is
