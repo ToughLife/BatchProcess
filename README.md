@@ -60,7 +60,7 @@ for more information.
 
 ## <a name="fclist"/></a>Function List
 1. **`( )`**: The form of the function may seem to be very strange. Actually, this function just contac all the elements in the paratheses. The element may also be a list.
-<font color=#CC0000> **Note:**</font> 
+<style="color:#CC0000"> **Note:**</style> 
 + The spaces between the elements is NOT ignored. 
 + The lists in the same pair of paratheses MUST be equal length.
 > Example:
