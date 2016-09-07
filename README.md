@@ -1,4 +1,5 @@
 <a href="abc">ddd</a>
+<div style="color:#CC0000"> mmm</div> 
 # Batch processing - batch
 
 ```batch``` allows you to execute many a bounch of commands in one command. Actually, it is
